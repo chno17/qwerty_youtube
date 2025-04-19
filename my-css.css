@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+  
+.Main {
+    display: inline-block;
+}
+  
+.logo {
+    height: 50px;
+}
+  
+.Input {
+    background-color: black;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border: 1px;
+    border-color: red;
+}
+  
+.Input button {
+    background-color: black;
+    color: red;
+}
+  
+._8Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 60px;
+}
+._1Box,._2Box,._3Box,._4Box,._5Box,._6Box,._7Box,._8Box {
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+  }
+  
